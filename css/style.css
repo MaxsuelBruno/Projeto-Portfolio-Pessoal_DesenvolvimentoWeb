@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #d9ecff;
+  color: #002b5b;
+}
+
+header {
+  background-color: #a3d4ff;
+  color: #002b5b;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.bio {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 15px;
+    background: #f5f5f5;  
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.bio h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.bio p {
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+.bio strong {
+    color: #1a73e8;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #002b5b;
+    background-color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+section {
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+#sobre h2, #projetos h2, #habilidades h2, #contato h2 {
+    color: #004a7c;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#sobre figure {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#sobre img {
+    width: 230px;
+    height: 250px;
+    border-radius: 50%;
+    border: 4px solid #a3d4ff;
+}
+
+#projetos ul {
+    margin-left: 20px;
+}
+
+#projetos a {
+    color: #004a7c;
+}
+
+.galeria-projetos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.galeria-projetos img {
+    height: 190px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 3px solid #a3d4ff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #a3d4ff;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #cbe7ff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input, textarea, button {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #a3d4ff;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #004a7c;
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #002b5b;
+}
+
+footer {
+  background-color: #a3d4ff;
+  color: #002b5b;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  width: 100%;
+  box-sizing: border-box;
+}
